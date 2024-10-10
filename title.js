@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('form');
+    console.log(form,'form');
     const inputs = form.querySelectorAll('input, textarea');
+    console.log(inputs,'inputs');
     const submitButton = document.getElementById('submitButton');
 
     function checkFormFilled() {
@@ -21,3 +23,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     updateButtonState(); 
 });
+console.log('dsfsdfsdf');

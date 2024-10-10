@@ -98,3 +98,12 @@ body {
 body {
     overflow: hidden;
   }
+  button {
+    padding: 10px;
+    transition: background-color 2s;
+}
+
+button.full {
+    background-color: red;
+    color: white;
+}
